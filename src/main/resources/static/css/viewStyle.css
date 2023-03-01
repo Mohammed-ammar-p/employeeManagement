@@ -1,0 +1,153 @@
+html, body {
+ margin:0;
+ padding:1rem;
+ font-size: 11px;
+ color : #295880;
+}
+
+.left {
+ width : 30%;
+ float: left;
+}
+
+.right {
+ width : 70%;
+ float : right;
+}
+
+.profile {
+  text-align : center;
+  width : 100%;
+}
+
+.photo, p {
+  margin : 0;
+  color : #295880
+}
+
+.fname {
+ font-size: 2rem;
+ font-weight : bold;
+}
+
+.department {
+ font-size: 1.2rem;
+}
+
+.photo {
+ width: 10rem;
+ height: 10rem;
+ border-radius: 150px;
+}
+
+
+.details {
+    text-align : center;
+    width : 100%;
+}
+
+ul {
+    display : inline-block;
+    margin : 0;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2rem;
+    color : #295880;
+    list-style-type: none;
+    padding-top: 20px;
+    margin: 0;
+    border-bottom: 2px solid lightgrey;
+    width: 230px;
+}
+
+.topics {
+    font-size: 1.5rem;
+    font-weight : bold;
+}
+
+.desc {
+    padding-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.text {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+
+table {
+    width : 100%;
+}
+
+.float {
+    float : right;
+}
+
+.mode {
+    color : #303042;
+    background-color: #95cd95;
+    border-radius: 25%;
+    padding: 9px;
+}
+
+.roleHead {
+    font-size: 1.2rem;
+    font-weight : bold;
+}
+
+td {
+    padding-bottom : 15px;
+}
+
+.row1 {
+    padding-bottom : 10px;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    padding-right : 8px;
+}
+
+.location {
+    width: 12px;
+    height: 12px;
+    padding-right : 5px;
+}
+
+.btn {
+    border : none;
+    background-color : #295880;
+    padding: 11px;
+    color : white;
+    border-radius : 5px;
+    box-shadow: 1px 1px 4px #295880;
+}
+
+.update, .delete, .back, .viewTrainee {
+    margin: 15px auto;
+    border : none;
+}
+
+li a {
+    text-decoration : none;
+}
+
+.btn:hover {
+    background-color : #5b92c0;
+}
+
+.fa {
+    margin-right : 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .right, .left {
+        width : 100%;
+    }
+    .left {
+        height: 100%;
+    }
+}
